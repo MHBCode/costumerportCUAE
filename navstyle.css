@@ -1,0 +1,36 @@
+nav {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    background: transparent;
+  }
+nav h1{
+    margin-left: 10px;
+    background: white;
+    background-clip: unset;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* CSS for styling the select element and adding an icon */
+  
+  select {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    /* Add a border around the element */
+    border: 0;
+    /* Change the appearance of the dropdown arrow */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  select option{
+    text-align: center;
+  }
+
+  
+  
+  
+  
+  

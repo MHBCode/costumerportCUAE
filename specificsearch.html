@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search List</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="search.css">
+    </head>
+    <body>
+        <div class="container" style="width: 100%;">
+            <div class="row" id="search" style="width: 100%;">
+                <form id="search-form" action="" method="POST" enctype="multipart/form-data">
+                    <div class="form-group col-xs-9" style="width: 70%; display: inline-block;">
+                        <input class="form-control" type="text" placeholder="Search" style="width: 100%;"/>
+                    </div>
+                    <div class="form-group col-xs-3" style="width: 20%; display: inline-block; margin-left: 20px; margin-right: 20px;" >
+                        <button type="submit" class="btn btn-block btn-primary" >Search</button>
+                    </div>
+                </form>
+            </div>
+            <div class="row" id="filter">
+                <form>
+                    <div class="form-group col-sm-3 col-xs-6">
+                        <select data-filter="make" class="filter-make filter form-control">
+                            <option value="">Select Make</option>
+                            <option value="">Show All</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-sm-3 col-xs-6">
+                        <select data-filter="model" class="filter-model filter form-control">
+                            <option value="">Select Model</option>
+                            <option value="">Show All</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-sm-3 col-xs-6">
+                        <select data-filter="type" class="filter-type filter form-control">
+                            <option value="">Select Type</option>
+                            <option value="">Show All</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-sm-3 col-xs-6">
+                        <select data-filter="price" class="filter-price filter form-control">
+                            <option value="">Select Price Range</option>
+                            <option value="">Show All</option>
+                        </select>
+                    </div>
+                </form>
+                
+    </body>
+</html>
