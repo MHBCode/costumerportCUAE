@@ -5,46 +5,105 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <link rel="stylesheet" href="search.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="container" style="width: 100%;">
-            <div class="row" id="search" style="width: 100%;">
-                <form id="search-form" action="" method="POST" enctype="multipart/form-data">
+            <div class="row" id="search" style="width: 100%; margin-left: 5%;">
+                <form id="search-form" action="" method="POST" enctype="multipart/form-data" style="width: 100%;">
                     <div class="form-group col-xs-9" style="width: 70%; display: inline-block;">
-                        <input class="form-control" type="text" placeholder="Search" style="width: 100%;"/>
+                        <input class="form-control" type="text" placeholder="        Search" style="width: 100%; border-radius: 20px; border: none; color: black; font-size: large;"/>
                     </div>
-                    <div class="form-group col-xs-3" style="width: 20%; display: inline-block; margin-left: 20px; margin-right: 20px;" >
-                        <button type="submit" class="btn btn-block btn-primary" >Search</button>
+                    <div class="form-group col-xs-3" style="width: 20%; display: inline-block; margin-left: 20px; margin-right: 20px; text-align: center;" >
+                        <button type="submit" class="btn btn-block btn-primary" style="width: 60%; background-color: black; border-radius: 20px; color: white; font-size: large;">Search</button>
                     </div>
                 </form>
             </div>
-            <div class="row" id="filter">
-                <form>
-                    <div class="form-group col-sm-3 col-xs-6">
+            <div class="row" id="filter" style="position: absolute; top:15%; width: 100%;">
+                <form style="display: flex; flex-wrap: wrap; width: 100%; margin-left: 5%;">
+                    <div class="form-group col-sm-3 col-xs-6" style="width: 25%;">
                         <select data-filter="make" class="filter-make filter form-control">
                             <option value="">Select Make</option>
                             <option value="">Show All</option>
                         </select>
                     </div>
-                    <div class="form-group col-sm-3 col-xs-6">
+                    <div class="form-group col-sm-3 col-xs-6" style="width: 25%;">
                         <select data-filter="model" class="filter-model filter form-control">
                             <option value="">Select Model</option>
                             <option value="">Show All</option>
                         </select>
                     </div>
-                    <div class="form-group col-sm-3 col-xs-6">
+                    <div class="form-group col-sm-3 col-xs-6" style="width: 25%;">
                         <select data-filter="type" class="filter-type filter form-control">
                             <option value="">Select Type</option>
                             <option value="">Show All</option>
                         </select>
                     </div>
-                    <div class="form-group col-sm-3 col-xs-6">
+                    <div class="form-group col-sm-3 col-xs-6" style="width: 25%;">
                         <select data-filter="price" class="filter-price filter form-control">
                             <option value="">Select Price Range</option>
                             <option value="">Show All</option>
                         </select>
                     </div>
                 </form>
-                
+                <div style="margin-top:3%;">
+                    <table>
+	
+                        <thead>
+                          <tr>
+                            <th>Car Type</th>
+                            <th>Plate</th>
+                            <th>Chase</th>
+                            <th>Condition</th>
+                            <th></th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                            <td>Mazda Murano</td>
+                            <td>E795021</td>
+                            <td>8F83049GJ853820</td>
+                            <td>Good but looks Unused for so long</td>
+                            <td>📷 ☆</td>
+                          </tr>
+                          <tr>
+                            <td>Mazda Murano</td>
+                            <td>E795021</td>
+                            <td>8F83049GJ853820</td>
+                            <td>Good but looks Unused for so long</td>
+                            <td>📷 ☆</td>
+                          </tr>
+                          <tr>
+                            <td>Mazda Murano</td>
+                            <td>E795021</td>
+                            <td>8F83049GJ853820</td>
+                            <td>Good but looks Unused for so long</td>
+                            <td>📷 ☆</td>
+                          </tr>
+                          <tr>
+                            <td>Mazda Murano</td>
+                            <td>E795021</td>
+                            <td>8F83049GJ853820</td>
+                            <td>Good but looks Unused for so long</td>
+                            <td>📷 ☆</td>
+                          </tr>
+                          <tr>
+                            <td>Mazda Murano</td>
+                            <td>E795021</td>
+                            <td>8F83049GJ853820</td>
+                            <td>Good but looks Unused for so long</td>
+                            <td>📷 ☆</td>
+                          </tr>
+                          <tr>
+                            <td>Mazda Murano</td>
+                            <td>E795021</td>
+                            <td>8F83049GJ853820</td>
+                            <td>Good but looks Unused for so long</td>
+                            <td>📷 ☆</td>
+                          </tr>
+                      </tbody>
+                      
+                    </table>
+                </div>
     </body>
 </html>
